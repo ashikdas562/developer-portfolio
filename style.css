@@ -8,7 +8,7 @@ h1{
 #span1{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -18,7 +18,7 @@ section{
     
 }
 .half-width img{
-    width: 80%;
+    width: 50%;
 }
 .link-button{
     text-decoration: none;
@@ -37,4 +37,5 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    display: flex;
 }
